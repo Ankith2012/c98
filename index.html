@@ -1,0 +1,38 @@
+<html>
+    <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="main.js"></script>
+
+</head>
+<body style="background-color: blueviolet;">
+    <center>
+        <h1 style="color: black;">My Collage Web App</h1>
+        <hr>
+        <h4 class="text-danger">Please click allow when the poppup asking for your microphone access appears</h4>
+        <h2 style="color: brown;">Say "Selfie" when you click the button to take your photos</h2>
+        <textarea style="width: 500px;" id="textbox" readonly="true" placeholder="Text will appear here"></textarea>
+        <hr>
+    <button id="start" onclick="start()" class="btn btn-warning" style="width:100px ; height: 50px; font-size: large;">Start</button>
+    
+    <hr>
+    <hr>
+    <h3 style="color: black;">Camera:</h3>
+    <div id="camera"></div>
+    <h3 style="color: black;"> Result</h3>
+    <div id="result">
+        <div id="result1"><img src="pic1.webp" style="width: 30%;"></div>
+        
+        <hr>
+        <div id="result2"><img src="pic2.jpg" style="width: 30%;"></div>
+        
+        <hr>
+        <div id="result3"><img src="pic3.jpg" style="width: 30%;"></div>
+    </div>
+    </center>
+</body>
+</html>
